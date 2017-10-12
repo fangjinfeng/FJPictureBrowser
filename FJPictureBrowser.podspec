@@ -8,8 +8,8 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '7.0'
   s.ios.deployment_target = '7.0'
   s.source       = { :git => "https://github.com/fangjinfeng/FJPictureBrowser.git", :tag => "1.0.0" }
-  s.source_files = 'FJImageBrowser/**/*.{h,m}'
-  s.resources    = "FJImageBrowser/Resourse/*.{png}"
+  s.source_files = 'FJPictureBrowser/**/*.{h,m}'
+  s.resources    = "FJPictureBrowser/Resourse/*.{png}"
   s.requires_arc = true
   s.framework  = 'UIKit'
   s.dependency "SDWebImage", "~> 4.1.0"
