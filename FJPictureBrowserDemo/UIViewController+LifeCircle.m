@@ -8,7 +8,7 @@
 
 #import "AppDelegate.h"
 #import <objc/runtime.h>
-#import "FJImageBrowser.h"
+#import "FJPictureBrowser.h"
 #import "UIViewController+LifeCircle.h"
 
 @implementation UIViewController (LifeCircle)

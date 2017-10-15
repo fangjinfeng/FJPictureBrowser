@@ -8,11 +8,12 @@
 
 #import "FJImageModel.h"
 #import "UIView+FJExtension.h"
-#import "FJImageBrowserView.h"
+#import "FJPictureBrowserView.h"
 #import "ChatViewController.h"
 #import "ChatTableViewCell.h"
 
-@interface ChatViewController () <UITableViewDelegate, UITableViewDataSource, FJImageBrowserViewDelegate>
+@interface ChatViewController () <UITableViewDelegate, UITableViewDataSource, FJPictureBrowserViewDelegate>
+
 
 @property (nonatomic, strong) UITableView *tableView;
 
@@ -75,7 +76,7 @@ NSString * const JKChatCellKey = @"JKChatCellKey";
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     [tableView deselectRowAtIndexPath:indexPath animated:NO];
-    FJImageBrowserView *photosView = [[FJImageBrowserView alloc] init];
+    FJPictureBrowserView *photosView = [[FJPictureBrowserView alloc] init];
     photosView.photoDataArray = self.bigImageArray;
     photosView.selectedIndex = indexPath.row;
     photosView.photoBrowserDelegate = self;
@@ -86,13 +87,13 @@ NSString * const JKChatCellKey = @"JKChatCellKey";
 
 /************************************* PhotosViewDelegate ***************************************/
 // 返回图片占位小图
-- (UIImageView *)photoBrowser:(FJImageBrowserView *)browser placeholderImageForIndex:(NSInteger)index {
+- (UIImageView *)photoBrowser:(FJPictureBrowserView *)browser placeholderImageForIndex:(NSInteger)index {
     ChatTableViewCell *cell = (ChatTableViewCell *)[self tableView:self.tableView cellForRowAtIndexPath:[NSIndexPath indexPathForItem:index inSection:0]];
     return cell.imgView;
 }
 
 // 返回原图片位置
-- (CGRect)photoBrowser:(FJImageBrowserView *)browser targetRectForIndex:(NSInteger)index {
+- (CGRect)photoBrowser:(FJPictureBrowserView *)browser targetRectForIndex:(NSInteger)index {
     
     NSIndexPath *tmpIndexPath = [NSIndexPath indexPathForItem:index inSection:0];
     

@@ -10,9 +10,9 @@
 #define FJImageBrowser_h
 
 #import "FJImageModel.h"
-#import "FJImageBrowserView.h"
+#import "FJPictureBrowserView.h"
 #import "FJImageBrowserMacro.h"
-#import "FJImageBrowserPhotoView.h"
+#import "FJPictureBrowserPhotoView.h"
 
 
 

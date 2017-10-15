@@ -1,13 +1,13 @@
 //
-//  FJImageBrowserMacro.h
+//  FJPictureBrowserMacro.h
 //  FJPhotoBrowserDemo
 //
 //  Created by fjf on 2017/5/19.
 //  Copyright © 2017年 fjf. All rights reserved.
 //
 
-#ifndef FJImageBrowserMacro_h
-#define FJImageBrowserMacro_h
+#ifndef FJPictureBrowserMacro_h
+#define FJPictureBrowserMacro_h
 
 
 #import <UIKit/UIKit.h>
@@ -26,15 +26,13 @@
 #define kFJPageControlCurrentPageIndicatorTintColor [UIColor whiteColor]
 
 // 显示 模式
-typedef NS_ENUM(NSInteger, FJPhotoViewShowType){
+typedef NS_ENUM(NSInteger, FJPictureViewShowType){
     // 模仿微博显示
-    FJPhotoViewShowTypeOfWeiBo = 0,
+    FJPictureViewShowTypeWeiBo = 0,
     // 模仿微信显示
-    FJPhotoViewShowTypeOfWeiXin = 1,
+    FJPictureViewShowTypeWeiXin = 1,
 };
 
 
 
-
-
-#endif /* FJImageBrowserMacro_h */
+#endif /* FJPictureBrowserMacro_h */

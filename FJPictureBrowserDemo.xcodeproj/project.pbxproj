@@ -20,28 +20,28 @@
 		306E603F1F8F559600012683 /* ChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 306E60391F8F559600012683 /* ChatViewController.m */; };
 		306E60481F8F55A900012683 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 306E60451F8F55A900012683 /* ViewController.m */; };
 		306E60491F8F55A900012683 /* UIViewController+LifeCircle.m in Sources */ = {isa = PBXBuildFile; fileRef = 306E60471F8F55A900012683 /* UIViewController+LifeCircle.m */; };
-		306E605F1F8F55F700012683 /* FJImageBrowser.h in Sources */ = {isa = PBXBuildFile; fileRef = 306E604C1F8F55E600012683 /* FJImageBrowser.h */; };
-		306E60601F8F55F700012683 /* FJImageBrowserMacro.h in Sources */ = {isa = PBXBuildFile; fileRef = 306E604D1F8F55E600012683 /* FJImageBrowserMacro.h */; };
-		306E60611F8F55F700012683 /* FJImageBrowserPhotoView.h in Sources */ = {isa = PBXBuildFile; fileRef = 306E604E1F8F55E600012683 /* FJImageBrowserPhotoView.h */; };
-		306E60621F8F55F700012683 /* FJImageBrowserPhotoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 306E604F1F8F55E600012683 /* FJImageBrowserPhotoView.m */; };
-		306E60631F8F55F700012683 /* FJImageBrowserView.h in Sources */ = {isa = PBXBuildFile; fileRef = 306E60501F8F55E600012683 /* FJImageBrowserView.h */; };
-		306E60641F8F55F700012683 /* FJImageBrowserView.m in Sources */ = {isa = PBXBuildFile; fileRef = 306E60511F8F55E600012683 /* FJImageBrowserView.m */; };
-		306E60651F8F55F700012683 /* FJImageModel.h in Sources */ = {isa = PBXBuildFile; fileRef = 306E60521F8F55E600012683 /* FJImageModel.h */; };
-		306E60661F8F55F700012683 /* FJImageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 306E60531F8F55E600012683 /* FJImageModel.m */; };
-		306E60671F8F55F700012683 /* FJShapeCircleView.h in Sources */ = {isa = PBXBuildFile; fileRef = 306E60541F8F55E600012683 /* FJShapeCircleView.h */; };
-		306E60681F8F55F700012683 /* FJShapeCircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 306E60551F8F55E600012683 /* FJShapeCircleView.m */; };
-		306E60691F8F55F700012683 /* TMMuiLazyScrollView.h in Sources */ = {isa = PBXBuildFile; fileRef = 306E60561F8F55E600012683 /* TMMuiLazyScrollView.h */; };
-		306E606A1F8F55F700012683 /* TMMuiLazyScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 306E60571F8F55E600012683 /* TMMuiLazyScrollView.m */; };
-		306E606B1F8F55F700012683 /* UIView+FJExtension.h in Sources */ = {isa = PBXBuildFile; fileRef = 306E60581F8F55E600012683 /* UIView+FJExtension.h */; };
-		306E606C1F8F55F700012683 /* UIView+FJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 306E60591F8F55E600012683 /* UIView+FJExtension.m */; };
-		306E606D1F8F55F700012683 /* UIViewController+FJCurrentViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 306E605A1F8F55E600012683 /* UIViewController+FJCurrentViewController.h */; };
-		306E606E1F8F55F700012683 /* UIViewController+FJCurrentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 306E605B1F8F55E600012683 /* UIViewController+FJCurrentViewController.m */; };
 		306E606F1F8F560700012683 /* default_avatar_geren_134@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 306E605D1F8F55E600012683 /* default_avatar_geren_134@2x.png */; };
 		306E60701F8F560700012683 /* default_avatar_geren_134@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 306E605E1F8F55E600012683 /* default_avatar_geren_134@3x.png */; };
 		306E60711F8F560700012683 /* imageBrowser.gif in Resources */ = {isa = PBXBuildFile; fileRef = 306E60411F8F559E00012683 /* imageBrowser.gif */; };
 		306E60721F8F560700012683 /* imageBrowserLandscape.gif in Resources */ = {isa = PBXBuildFile; fileRef = 306E60421F8F559E00012683 /* imageBrowserLandscape.gif */; };
 		306E60731F8F560700012683 /* imageBrowserPortrait.gif in Resources */ = {isa = PBXBuildFile; fileRef = 306E60431F8F559E00012683 /* imageBrowserPortrait.gif */; };
 		306E60741F8F571500012683 /* FJCollectionImageViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 306E60381F8F559600012683 /* FJCollectionImageViewCell.xib */; };
+		30C71DD41F93380300BB6032 /* FJImageModel.h in Sources */ = {isa = PBXBuildFile; fileRef = 30C71DC41F9337F000BB6032 /* FJImageModel.h */; };
+		30C71DD51F93380300BB6032 /* FJImageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 30C71DC51F9337F000BB6032 /* FJImageModel.m */; };
+		30C71DD61F93380300BB6032 /* FJPictureBrowser.h in Sources */ = {isa = PBXBuildFile; fileRef = 30C71DC61F9337F000BB6032 /* FJPictureBrowser.h */; };
+		30C71DD71F93380300BB6032 /* FJPictureBrowserMacro.h in Sources */ = {isa = PBXBuildFile; fileRef = 30C71DC71F9337F000BB6032 /* FJPictureBrowserMacro.h */; };
+		30C71DD81F93380300BB6032 /* FJPictureBrowserPhotoView.h in Sources */ = {isa = PBXBuildFile; fileRef = 30C71DC81F9337F000BB6032 /* FJPictureBrowserPhotoView.h */; };
+		30C71DD91F93380300BB6032 /* FJPictureBrowserPhotoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 30C71DC91F9337F000BB6032 /* FJPictureBrowserPhotoView.m */; };
+		30C71DDA1F93380300BB6032 /* FJPictureBrowserView.h in Sources */ = {isa = PBXBuildFile; fileRef = 30C71DCA1F9337F000BB6032 /* FJPictureBrowserView.h */; };
+		30C71DDB1F93380300BB6032 /* FJPictureBrowserView.m in Sources */ = {isa = PBXBuildFile; fileRef = 30C71DCB1F9337F000BB6032 /* FJPictureBrowserView.m */; };
+		30C71DDC1F93380300BB6032 /* FJShapeCircleView.h in Sources */ = {isa = PBXBuildFile; fileRef = 30C71DCC1F9337F000BB6032 /* FJShapeCircleView.h */; };
+		30C71DDD1F93380300BB6032 /* FJShapeCircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 30C71DCD1F9337F000BB6032 /* FJShapeCircleView.m */; };
+		30C71DDE1F93380300BB6032 /* TMMuiLazyScrollView.h in Sources */ = {isa = PBXBuildFile; fileRef = 30C71DCE1F9337F000BB6032 /* TMMuiLazyScrollView.h */; };
+		30C71DDF1F93380300BB6032 /* TMMuiLazyScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 30C71DCF1F9337F000BB6032 /* TMMuiLazyScrollView.m */; };
+		30C71DE01F93380300BB6032 /* UIView+FJExtension.h in Sources */ = {isa = PBXBuildFile; fileRef = 30C71DD01F9337F000BB6032 /* UIView+FJExtension.h */; };
+		30C71DE11F93380300BB6032 /* UIView+FJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 30C71DD11F9337F000BB6032 /* UIView+FJExtension.m */; };
+		30C71DE21F93380300BB6032 /* UIViewController+FJCurrentViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 30C71DD21F9337F000BB6032 /* UIViewController+FJCurrentViewController.h */; };
+		30C71DE31F93380300BB6032 /* UIViewController+FJCurrentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30C71DD31F9337F000BB6032 /* UIViewController+FJCurrentViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -90,24 +90,24 @@
 		306E60451F8F55A900012683 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../../FJImageBrowserDemo/FJImageBrowserDemo/ViewController.m; sourceTree = "<group>"; };
 		306E60461F8F55A900012683 /* UIViewController+LifeCircle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+LifeCircle.h"; sourceTree = "<group>"; };
 		306E60471F8F55A900012683 /* UIViewController+LifeCircle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+LifeCircle.m"; sourceTree = "<group>"; };
-		306E604C1F8F55E600012683 /* FJImageBrowser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FJImageBrowser.h; sourceTree = "<group>"; };
-		306E604D1F8F55E600012683 /* FJImageBrowserMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FJImageBrowserMacro.h; sourceTree = "<group>"; };
-		306E604E1F8F55E600012683 /* FJImageBrowserPhotoView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FJImageBrowserPhotoView.h; sourceTree = "<group>"; };
-		306E604F1F8F55E600012683 /* FJImageBrowserPhotoView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FJImageBrowserPhotoView.m; sourceTree = "<group>"; };
-		306E60501F8F55E600012683 /* FJImageBrowserView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FJImageBrowserView.h; sourceTree = "<group>"; };
-		306E60511F8F55E600012683 /* FJImageBrowserView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FJImageBrowserView.m; sourceTree = "<group>"; };
-		306E60521F8F55E600012683 /* FJImageModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FJImageModel.h; sourceTree = "<group>"; };
-		306E60531F8F55E600012683 /* FJImageModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FJImageModel.m; sourceTree = "<group>"; };
-		306E60541F8F55E600012683 /* FJShapeCircleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FJShapeCircleView.h; sourceTree = "<group>"; };
-		306E60551F8F55E600012683 /* FJShapeCircleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FJShapeCircleView.m; sourceTree = "<group>"; };
-		306E60561F8F55E600012683 /* TMMuiLazyScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMMuiLazyScrollView.h; sourceTree = "<group>"; };
-		306E60571F8F55E600012683 /* TMMuiLazyScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMMuiLazyScrollView.m; sourceTree = "<group>"; };
-		306E60581F8F55E600012683 /* UIView+FJExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+FJExtension.h"; sourceTree = "<group>"; };
-		306E60591F8F55E600012683 /* UIView+FJExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+FJExtension.m"; sourceTree = "<group>"; };
-		306E605A1F8F55E600012683 /* UIViewController+FJCurrentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+FJCurrentViewController.h"; sourceTree = "<group>"; };
-		306E605B1F8F55E600012683 /* UIViewController+FJCurrentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+FJCurrentViewController.m"; sourceTree = "<group>"; };
 		306E605D1F8F55E600012683 /* default_avatar_geren_134@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "default_avatar_geren_134@2x.png"; sourceTree = "<group>"; };
 		306E605E1F8F55E600012683 /* default_avatar_geren_134@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "default_avatar_geren_134@3x.png"; sourceTree = "<group>"; };
+		30C71DC41F9337F000BB6032 /* FJImageModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FJImageModel.h; sourceTree = "<group>"; };
+		30C71DC51F9337F000BB6032 /* FJImageModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FJImageModel.m; sourceTree = "<group>"; };
+		30C71DC61F9337F000BB6032 /* FJPictureBrowser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FJPictureBrowser.h; sourceTree = "<group>"; };
+		30C71DC71F9337F000BB6032 /* FJPictureBrowserMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FJPictureBrowserMacro.h; sourceTree = "<group>"; };
+		30C71DC81F9337F000BB6032 /* FJPictureBrowserPhotoView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FJPictureBrowserPhotoView.h; sourceTree = "<group>"; };
+		30C71DC91F9337F000BB6032 /* FJPictureBrowserPhotoView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FJPictureBrowserPhotoView.m; sourceTree = "<group>"; };
+		30C71DCA1F9337F000BB6032 /* FJPictureBrowserView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FJPictureBrowserView.h; sourceTree = "<group>"; };
+		30C71DCB1F9337F000BB6032 /* FJPictureBrowserView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FJPictureBrowserView.m; sourceTree = "<group>"; };
+		30C71DCC1F9337F000BB6032 /* FJShapeCircleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FJShapeCircleView.h; sourceTree = "<group>"; };
+		30C71DCD1F9337F000BB6032 /* FJShapeCircleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FJShapeCircleView.m; sourceTree = "<group>"; };
+		30C71DCE1F9337F000BB6032 /* TMMuiLazyScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMMuiLazyScrollView.h; sourceTree = "<group>"; };
+		30C71DCF1F9337F000BB6032 /* TMMuiLazyScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMMuiLazyScrollView.m; sourceTree = "<group>"; };
+		30C71DD01F9337F000BB6032 /* UIView+FJExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+FJExtension.h"; sourceTree = "<group>"; };
+		30C71DD11F9337F000BB6032 /* UIView+FJExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+FJExtension.m"; sourceTree = "<group>"; };
+		30C71DD21F9337F000BB6032 /* UIViewController+FJCurrentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+FJCurrentViewController.h"; sourceTree = "<group>"; };
+		30C71DD31F9337F000BB6032 /* UIViewController+FJCurrentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+FJCurrentViewController.m"; sourceTree = "<group>"; };
 		5073FDBCFAA3C4D83B4C88EF /* Pods-FJPictureBrowserDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FJPictureBrowserDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-FJPictureBrowserDemo/Pods-FJPictureBrowserDemo.release.xcconfig"; sourceTree = "<group>"; };
 		7C63C6CA719E5D312628F011 /* Pods_FJPictureBrowserDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FJPictureBrowserDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7DFD0B4579A463EF918A096 /* Pods-FJPictureBrowserDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FJPictureBrowserDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FJPictureBrowserDemo/Pods-FJPictureBrowserDemo.debug.xcconfig"; sourceTree = "<group>"; };
@@ -227,33 +227,10 @@
 		306E604A1F8F55E600012683 /* FJPictureBrowser */ = {
 			isa = PBXGroup;
 			children = (
-				306E604B1F8F55E600012683 /* FJImageBrowserInfo */,
+				30C71DC31F9337F000BB6032 /* FJPictureBrowserInfo */,
 				306E605C1F8F55E600012683 /* Resourse */,
 			);
 			path = FJPictureBrowser;
-			sourceTree = "<group>";
-		};
-		306E604B1F8F55E600012683 /* FJImageBrowserInfo */ = {
-			isa = PBXGroup;
-			children = (
-				306E604C1F8F55E600012683 /* FJImageBrowser.h */,
-				306E604D1F8F55E600012683 /* FJImageBrowserMacro.h */,
-				306E604E1F8F55E600012683 /* FJImageBrowserPhotoView.h */,
-				306E604F1F8F55E600012683 /* FJImageBrowserPhotoView.m */,
-				306E60501F8F55E600012683 /* FJImageBrowserView.h */,
-				306E60511F8F55E600012683 /* FJImageBrowserView.m */,
-				306E60521F8F55E600012683 /* FJImageModel.h */,
-				306E60531F8F55E600012683 /* FJImageModel.m */,
-				306E60541F8F55E600012683 /* FJShapeCircleView.h */,
-				306E60551F8F55E600012683 /* FJShapeCircleView.m */,
-				306E60561F8F55E600012683 /* TMMuiLazyScrollView.h */,
-				306E60571F8F55E600012683 /* TMMuiLazyScrollView.m */,
-				306E60581F8F55E600012683 /* UIView+FJExtension.h */,
-				306E60591F8F55E600012683 /* UIView+FJExtension.m */,
-				306E605A1F8F55E600012683 /* UIViewController+FJCurrentViewController.h */,
-				306E605B1F8F55E600012683 /* UIViewController+FJCurrentViewController.m */,
-			);
-			path = FJImageBrowserInfo;
 			sourceTree = "<group>";
 		};
 		306E605C1F8F55E600012683 /* Resourse */ = {
@@ -263,6 +240,29 @@
 				306E605E1F8F55E600012683 /* default_avatar_geren_134@3x.png */,
 			);
 			path = Resourse;
+			sourceTree = "<group>";
+		};
+		30C71DC31F9337F000BB6032 /* FJPictureBrowserInfo */ = {
+			isa = PBXGroup;
+			children = (
+				30C71DC41F9337F000BB6032 /* FJImageModel.h */,
+				30C71DC51F9337F000BB6032 /* FJImageModel.m */,
+				30C71DC61F9337F000BB6032 /* FJPictureBrowser.h */,
+				30C71DC71F9337F000BB6032 /* FJPictureBrowserMacro.h */,
+				30C71DC81F9337F000BB6032 /* FJPictureBrowserPhotoView.h */,
+				30C71DC91F9337F000BB6032 /* FJPictureBrowserPhotoView.m */,
+				30C71DCA1F9337F000BB6032 /* FJPictureBrowserView.h */,
+				30C71DCB1F9337F000BB6032 /* FJPictureBrowserView.m */,
+				30C71DCC1F9337F000BB6032 /* FJShapeCircleView.h */,
+				30C71DCD1F9337F000BB6032 /* FJShapeCircleView.m */,
+				30C71DCE1F9337F000BB6032 /* TMMuiLazyScrollView.h */,
+				30C71DCF1F9337F000BB6032 /* TMMuiLazyScrollView.m */,
+				30C71DD01F9337F000BB6032 /* UIView+FJExtension.h */,
+				30C71DD11F9337F000BB6032 /* UIView+FJExtension.m */,
+				30C71DD21F9337F000BB6032 /* UIViewController+FJCurrentViewController.h */,
+				30C71DD31F9337F000BB6032 /* UIViewController+FJCurrentViewController.m */,
+			);
+			path = FJPictureBrowserInfo;
 			sourceTree = "<group>";
 		};
 		EE02E6AC8712669CABF50F33 /* Pods */ = {
@@ -464,22 +464,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				306E605F1F8F55F700012683 /* FJImageBrowser.h in Sources */,
-				306E60601F8F55F700012683 /* FJImageBrowserMacro.h in Sources */,
-				306E60611F8F55F700012683 /* FJImageBrowserPhotoView.h in Sources */,
-				306E60621F8F55F700012683 /* FJImageBrowserPhotoView.m in Sources */,
-				306E60631F8F55F700012683 /* FJImageBrowserView.h in Sources */,
-				306E60641F8F55F700012683 /* FJImageBrowserView.m in Sources */,
-				306E60651F8F55F700012683 /* FJImageModel.h in Sources */,
-				306E60661F8F55F700012683 /* FJImageModel.m in Sources */,
-				306E60671F8F55F700012683 /* FJShapeCircleView.h in Sources */,
-				306E60681F8F55F700012683 /* FJShapeCircleView.m in Sources */,
-				306E60691F8F55F700012683 /* TMMuiLazyScrollView.h in Sources */,
-				306E606A1F8F55F700012683 /* TMMuiLazyScrollView.m in Sources */,
-				306E606B1F8F55F700012683 /* UIView+FJExtension.h in Sources */,
-				306E606C1F8F55F700012683 /* UIView+FJExtension.m in Sources */,
-				306E606D1F8F55F700012683 /* UIViewController+FJCurrentViewController.h in Sources */,
-				306E606E1F8F55F700012683 /* UIViewController+FJCurrentViewController.m in Sources */,
+				30C71DD41F93380300BB6032 /* FJImageModel.h in Sources */,
+				30C71DD51F93380300BB6032 /* FJImageModel.m in Sources */,
+				30C71DD61F93380300BB6032 /* FJPictureBrowser.h in Sources */,
+				30C71DD71F93380300BB6032 /* FJPictureBrowserMacro.h in Sources */,
+				30C71DD81F93380300BB6032 /* FJPictureBrowserPhotoView.h in Sources */,
+				30C71DD91F93380300BB6032 /* FJPictureBrowserPhotoView.m in Sources */,
+				30C71DDA1F93380300BB6032 /* FJPictureBrowserView.h in Sources */,
+				30C71DDB1F93380300BB6032 /* FJPictureBrowserView.m in Sources */,
+				30C71DDC1F93380300BB6032 /* FJShapeCircleView.h in Sources */,
+				30C71DDD1F93380300BB6032 /* FJShapeCircleView.m in Sources */,
+				30C71DDE1F93380300BB6032 /* TMMuiLazyScrollView.h in Sources */,
+				30C71DDF1F93380300BB6032 /* TMMuiLazyScrollView.m in Sources */,
+				30C71DE01F93380300BB6032 /* UIView+FJExtension.h in Sources */,
+				30C71DE11F93380300BB6032 /* UIView+FJExtension.m in Sources */,
+				30C71DE21F93380300BB6032 /* UIViewController+FJCurrentViewController.h in Sources */,
+				30C71DE31F93380300BB6032 /* UIViewController+FJCurrentViewController.m in Sources */,
 				306E60481F8F55A900012683 /* ViewController.m in Sources */,
 				306E60491F8F55A900012683 /* UIViewController+LifeCircle.m in Sources */,
 				306E603D1F8F559600012683 /* ChatTableViewCell.m in Sources */,
@@ -652,6 +652,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = FJPictureBrowserDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = test.FJPictureBrowserDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -666,6 +667,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = FJPictureBrowserDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = test.FJPictureBrowserDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";

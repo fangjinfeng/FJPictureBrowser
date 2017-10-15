@@ -7,11 +7,11 @@
 //  Copyright © 2017年 fjf. All rights reserved.
 //
 
-#import "FJImageBrowser.h"
+#import "FJPictureBrowser.h"
 #import "UIView+FJExtension.h"
 #import "FJShapeCircleView.h"
 #import "UIImageView+WebCache.h"
-#import "FJImageBrowserPhotoView.h"
+#import "FJPictureBrowserPhotoView.h"
 
 
 // 默认 动画 时间
@@ -24,7 +24,7 @@ static CGFloat const kFJPhotoBrowserCellZoomMaxScale = 2.0f;
 static CGFloat const kFJPhotoBrowserCellZoomMinScale = 0.2f;
 
 
-@interface FJImageBrowserPhotoView()<UIScrollViewDelegate, UIGestureRecognizerDelegate, UIActionSheetDelegate>
+@interface FJPictureBrowserPhotoView()<UIScrollViewDelegate, UIGestureRecognizerDelegate, UIActionSheetDelegate>
 
 
 // 图片下载成功 YES 否则 NO
@@ -49,7 +49,7 @@ static CGFloat const kFJPhotoBrowserCellZoomMinScale = 0.2f;
 @property (nonatomic, strong) FJShapeCircleView *progressLayer;
 
 // 显示 方式
-@property (nonatomic, assign) FJPhotoViewShowType photoViewShowType;
+@property (nonatomic, assign) FJPictureViewShowType photoViewShowType;
 
 // doubleTap 双击
 @property (nonatomic,strong) UITapGestureRecognizer *doubleTapGesture;
@@ -80,7 +80,7 @@ static CGFloat const kFJPhotoBrowserCellZoomMinScale = 0.2f;
 
 @end
 
-@implementation FJImageBrowserPhotoView
+@implementation FJPictureBrowserPhotoView
 
 #pragma mark --- init method
 
@@ -461,7 +461,7 @@ static CGFloat const kFJPhotoBrowserCellZoomMinScale = 0.2f;
 #pragma mark --- public method
 
 // 设置所需的参数
-- (void)setParamsWithPhotoModel:(FJImageModel *)photoModel currentIndex:(NSInteger)currentIndex photoViewShowType:(FJPhotoViewShowType)photoViewShowType isFirstShowBrowser:(BOOL)isFirstShowBrowser {
+- (void)setParamsWithPhotoModel:(FJImageModel *)photoModel currentIndex:(NSInteger)currentIndex photoViewShowType:(FJPictureViewShowType)photoViewShowType isFirstShowBrowser:(BOOL)isFirstShowBrowser {
     
     self.photoModel = photoModel;
     self.currentIndex = currentIndex;
@@ -483,13 +483,13 @@ static CGFloat const kFJPhotoBrowserCellZoomMinScale = 0.2f;
 //  放大 图片
 - (void)amplifyImageViewWithIsFirstShowBrowser:(BOOL)isFirstShowBrowser {
     // 微博 显示 方式 (直接放大)
-    if (self.photoViewShowType == FJPhotoViewShowTypeOfWeiBo) {
+    if (self.photoViewShowType == FJPictureViewShowTypeWeiBo) {
         
         [self directAmplifyImageViewWithVariable:self.photoModel.imageInfo isFirstShowBrowser:isFirstShowBrowser];
     }
     
     // 微信 显示 方式 (加载完成后 放大)
-    else if(self.photoViewShowType == FJPhotoViewShowTypeOfWeiXin && [self isImageUrl:self.photoModel.imageInfo]) {
+    else if(self.photoViewShowType == FJPictureViewShowTypeWeiXin && [self isImageUrl:self.photoModel.imageInfo]) {
         // 图片未下载 先显示在 中部
         NSString *tmpImageUrl = (NSString *)self.photoModel.imageInfo;
         

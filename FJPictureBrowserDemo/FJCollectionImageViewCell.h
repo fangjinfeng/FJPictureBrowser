@@ -6,7 +6,7 @@
 //  Copyright © 2016年 fjf. All rights reserved.
 //
 
-#import "FJImageBrowserMacro.h"
+#import "FJPictureBrowserMacro.h"
 #import <UIKit/UIKit.h>
 
 // 间距

@@ -10,7 +10,7 @@
 #import "FJImageBrowserMacro.h"
 
 @class FJImageModel;
-@class FJImageBrowserView;
+@class FJPictureBrowserView;
 
 
 
@@ -29,7 +29,7 @@
  @param index 第几张图
  @return 占位小图 起始位置
  */
-- (CGRect)photoBrowser:(FJImageBrowserView *_Nullable)browser targetRectForIndex:(NSInteger)index;
+- (CGRect)photoBrowser:(FJPictureBrowserView *_Nullable)browser targetRectForIndex:(NSInteger)index;
 
 /**
  返回 占位 小图
@@ -38,12 +38,12 @@
  @param index 第几张图
  @return 占位 小图
  */
-- (UIImageView *_Nullable)photoBrowser:(FJImageBrowserView *_Nullable)browser placeholderImageForIndex:(NSInteger)index;
+- (UIImageView *_Nullable)photoBrowser:(FJPictureBrowserView *_Nullable)browser placeholderImageForIndex:(NSInteger)index;
 
 @end
 
 
-@interface FJImageBrowserView : UIViewController<FJViewControllerRotateProtocol>
+@interface FJPictureBrowserView : UIViewController<FJViewControllerRotateProtocol>
 
 /**
  选中第几张(必传)

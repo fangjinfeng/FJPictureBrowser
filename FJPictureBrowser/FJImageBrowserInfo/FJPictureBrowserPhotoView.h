@@ -8,11 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
+@class FJImageModel;
 
 @interface FJImageBrowserPhotoView : UIView
 
 // 父控件
-@property (nonatomic, weak) FJImageBrowserView *parentPhotosView;
+@property (nonatomic, weak) FJPictureBrowserView *parentPhotosView;
 
 /**
  * @brief 设置所需的参数
@@ -22,6 +23,6 @@
  * param isFirstTouchImage  是否 为 第一张 需要 放大 图片
  */
 // 设置所需的参数
-- (void)setParamsWithPhotoModel:(FJImageModel *)photoModel currentIndex:(NSInteger)currentIndex photoViewShowType:(FJPhotoViewShowType)photoViewShowType isFirstShowBrowser:(BOOL)isFirstShowBrowser;
+- (void)setParamsWithPhotoModel:(FJImageModel *)photoModel currentIndex:(NSInteger)currentIndex photoViewShowType:(FJPictureViewShowType)photoViewShowType isFirstShowBrowser:(BOOL)isFirstShowBrowser;
 
 @end

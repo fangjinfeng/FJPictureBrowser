@@ -9,13 +9,13 @@
 
 #import "FJImageModel.h"
 #import "UIView+FJExtension.h"
-#import "FJImageBrowserView.h"
+#import "FJPictureBrowserView.h"
 #import "TMMuiLazyScrollView.h"
 #import "FJImageBrowserPhotoView.h"
 #import "UIViewController+FJCurrentViewController.h"
 
 
-@interface FJImageBrowserView()<TMMuiLazyScrollViewDataSource, UIScrollViewDelegate>
+@interface FJPictureBrowserView()<TMMuiLazyScrollViewDataSource, UIScrollViewDelegate>
 
 // 是否 为 第一次 显示
 @property (nonatomic, assign) BOOL isFirstShowBrowser;
@@ -36,7 +36,7 @@
 @property (nonatomic, strong) TMMuiLazyScrollView *photoBrowserScrollView;
 @end
 
-@implementation FJImageBrowserView
+@implementation FJPictureBrowserView
 
 #pragma mark --- life circle
 
