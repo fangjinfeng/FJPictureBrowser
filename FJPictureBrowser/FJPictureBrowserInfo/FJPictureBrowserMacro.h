@@ -25,6 +25,10 @@
 // 页码 选中 颜色
 #define kFJPageControlCurrentPageIndicatorTintColor [UIColor whiteColor]
 
+#define currentLanguage [NSLocale preferredLanguages].firstObject
+#define LanguagePath    [[NSBundle mainBundle] pathForResource:currentLanguage ofType:@"lproj"]
+#define Localized(key)  [[NSBundle bundleWithPath:LanguagePath] localizedStringForKey:(key) value:nil table:@"FJPictureBrowserLocalizable"]
+
 // 显示 模式
 typedef NS_ENUM(NSInteger, FJPictureViewShowType){
     // 模仿微博显示

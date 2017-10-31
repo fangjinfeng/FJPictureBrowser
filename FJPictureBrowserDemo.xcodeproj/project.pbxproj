@@ -26,6 +26,7 @@
 		306E60721F8F560700012683 /* imageBrowserLandscape.gif in Resources */ = {isa = PBXBuildFile; fileRef = 306E60421F8F559E00012683 /* imageBrowserLandscape.gif */; };
 		306E60731F8F560700012683 /* imageBrowserPortrait.gif in Resources */ = {isa = PBXBuildFile; fileRef = 306E60431F8F559E00012683 /* imageBrowserPortrait.gif */; };
 		306E60741F8F571500012683 /* FJCollectionImageViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 306E60381F8F559600012683 /* FJCollectionImageViewCell.xib */; };
+		30A490161FA8A0BF00BA71DB /* FJPictureBrowserLocalizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 30A490181FA8A0BF00BA71DB /* FJPictureBrowserLocalizable.strings */; };
 		30C71DD41F93380300BB6032 /* FJImageModel.h in Sources */ = {isa = PBXBuildFile; fileRef = 30C71DC41F9337F000BB6032 /* FJImageModel.h */; };
 		30C71DD51F93380300BB6032 /* FJImageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 30C71DC51F9337F000BB6032 /* FJImageModel.m */; };
 		30C71DD61F93380300BB6032 /* FJPictureBrowser.h in Sources */ = {isa = PBXBuildFile; fileRef = 30C71DC61F9337F000BB6032 /* FJPictureBrowser.h */; };
@@ -92,6 +93,10 @@
 		306E60471F8F55A900012683 /* UIViewController+LifeCircle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+LifeCircle.m"; sourceTree = "<group>"; };
 		306E605D1F8F55E600012683 /* default_avatar_geren_134@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "default_avatar_geren_134@2x.png"; sourceTree = "<group>"; };
 		306E605E1F8F55E600012683 /* default_avatar_geren_134@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "default_avatar_geren_134@3x.png"; sourceTree = "<group>"; };
+		30A490171FA8A0BF00BA71DB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/FJPictureBrowserLocalizable.strings; sourceTree = "<group>"; };
+		30A490201FA8A1CC00BA71DB /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		30A490211FA8A1CC00BA71DB /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		30A490231FA8A1CC00BA71DB /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/FJPictureBrowserLocalizable.strings"; sourceTree = "<group>"; };
 		30C71DC41F9337F000BB6032 /* FJImageModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FJImageModel.h; sourceTree = "<group>"; };
 		30C71DC51F9337F000BB6032 /* FJImageModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FJImageModel.m; sourceTree = "<group>"; };
 		30C71DC61F9337F000BB6032 /* FJPictureBrowser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FJPictureBrowser.h; sourceTree = "<group>"; };
@@ -238,6 +243,7 @@
 			children = (
 				306E605D1F8F55E600012683 /* default_avatar_geren_134@2x.png */,
 				306E605E1F8F55E600012683 /* default_avatar_geren_134@3x.png */,
+				30A490181FA8A0BF00BA71DB /* FJPictureBrowserLocalizable.strings */,
 			);
 			path = Resourse;
 			sourceTree = "<group>";
@@ -365,6 +371,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = 306E5FF81F8F555500012683;
 			productRefGroup = 306E60021F8F555500012683 /* Products */;
@@ -388,6 +395,7 @@
 				306E60701F8F560700012683 /* default_avatar_geren_134@3x.png in Resources */,
 				306E60711F8F560700012683 /* imageBrowser.gif in Resources */,
 				306E60721F8F560700012683 /* imageBrowserLandscape.gif in Resources */,
+				30A490161FA8A0BF00BA71DB /* FJPictureBrowserLocalizable.strings in Resources */,
 				306E60731F8F560700012683 /* imageBrowserPortrait.gif in Resources */,
 				306E60111F8F555500012683 /* LaunchScreen.storyboard in Resources */,
 				306E600E1F8F555500012683 /* Assets.xcassets in Resources */,
@@ -526,6 +534,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				306E600B1F8F555500012683 /* Base */,
+				30A490201FA8A1CC00BA71DB /* zh-Hans */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -534,8 +543,18 @@
 			isa = PBXVariantGroup;
 			children = (
 				306E60101F8F555500012683 /* Base */,
+				30A490211FA8A1CC00BA71DB /* zh-Hans */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		30A490181FA8A0BF00BA71DB /* FJPictureBrowserLocalizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30A490171FA8A0BF00BA71DB /* en */,
+				30A490231FA8A1CC00BA71DB /* zh-Hans */,
+			);
+			name = FJPictureBrowserLocalizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -545,6 +564,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -600,6 +620,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";

@@ -685,7 +685,7 @@ static CGFloat const kFJPhotoBrowserCellZoomMinScale = 0.2f;
 // 长按
 - (void)handleLongPress:(UILongPressGestureRecognizer *)recognizer {
     if (recognizer.state == UIGestureRecognizerStateBegan) {
-        UIActionSheet *actionSheet = [[UIActionSheet alloc] initWithTitle:nil delegate:self cancelButtonTitle:@"取消" destructiveButtonTitle:@"保存图片" otherButtonTitles:nil, nil];
+        UIActionSheet *actionSheet = [[UIActionSheet alloc] initWithTitle:nil delegate:self cancelButtonTitle:Localized(@"取消") destructiveButtonTitle:Localized(@"保存图片") otherButtonTitles:nil, nil];
         [actionSheet showInView:self];
     }
 }

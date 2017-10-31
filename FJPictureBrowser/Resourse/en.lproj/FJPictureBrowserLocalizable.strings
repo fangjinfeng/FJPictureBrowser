@@ -1,0 +1,9 @@
+/* 
+  FJPictureBrowserLocalizable.strings
+  FJPictureBrowserDemo
+
+  Created by fjf on 2017/10/31.
+  Copyright © 2017年 fjf. All rights reserved.
+*/
+"保存图片" = "Save Picture";
+"取消" = "Cancel";
